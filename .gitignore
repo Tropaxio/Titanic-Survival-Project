@@ -1,8 +1,11 @@
 # The env file
 .env 
 
+# The virtual environment
+.venv 
+
 # The data file 
-data/
+datasets/
 
 # Python cache
 __pycache__/
