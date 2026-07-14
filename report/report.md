@@ -10,8 +10,7 @@ We evaluate several different models: Logistic Regression (our baseline model), 
 
 The training dataset has `891` rows and `12` columns. Of these `12` columns, one is the unique identifier of the passenger, `PassengerId`, while `Survived` is the target variable.
 
-The test dataset has `418` rows and `11` columns (the `PassengerId` and the remaining 10 features).
-
+The test dataset has `418` rows and `11` columns.
 ### 1.1.1 Variables
 
 The variables presented in the dataset, together with their data types are:
