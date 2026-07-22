@@ -57,11 +57,11 @@ As seen from the plot below, `adults` are the majority of passengers, counting f
 We can also observe the distribution of survival rates across different age groups (although some `Age` data is missing as we've seen):
 
 | Age Group | Survived | Relative Frequency of Survival | Not Survived | Relative Frequency of Not Survival  |
-| ---------- | -------- | ------------------------------- | ------------ | ---------------------------------- |
-| Children   | 40       | 0.579710                        | 29           | 0.420290                           |
-| Teenager   | 21       | 0.477273                        | 23           | 0.522727                           |
-| Adult      | 228      | 0.387755                        | 360          | 0.612245                           |
-| Elderly    | 1        | 0.076923                        | 12           | 0.923077                           |
+| ---------- | -------- | ------------------------------- | ------------ | ----------------------------------|
+| Children   | 40       | 58                              | 29           | 42                                |
+| Teenager   | 21       | 48                              | 29           | 52                                |
+| Adult      | 228      | 39                              | 29           | 61                                |
+| Elderly    | 1        | 8                               | 29           | 92                                |
 
 As shown in the table, `children` have the highest survival rate, followed by `teenager`. A plausible explanation is that children were prioritized during the evacuation, in line with the “women and children first” protocol followed during the disaster. Teenagers also exhibit a relatively high survival rate, although not as pronounced as that of children. In contrast, `elderly` have the lowest survival rate, with approximately `92.3%` of elderly passengers not surviving. This may be attributed to reduced mobility and greater difficulty evacuating the ship under emergency conditions.
 
@@ -73,8 +73,8 @@ Having this in mind, we can also verify the distribution of survival by sex to v
 
 | Sex    | Survived | Relative Frequency of Survival | Not Survived | Relative Frequency of Not Survival |
 | ------- | -------- | ------------------------------ | ------------ | ---------------------------------- |
-| Female  | 233      | 0.742038                       | 81           | 0.257962                           |
-| Male    | 109      | 0.188908                       | 468          | 0.811092                           |
+| Female  | 233      | 74                             | 81           | 26                                 |
+| Male    | 109      | 19                             | 468          | 81                                 |
 
 In fact, `female` passengers show a much higher survival rate than `male` passengers (`74.2%` vs `18.9%`) which further validates our assumption that women and children were saved first.
 
