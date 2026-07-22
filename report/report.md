@@ -4,14 +4,12 @@ In this project, we use the Titanic dataset from Kaggle available [here](https:/
 
 We evaluate several different models: Logistic Regression (our baseline model), with and without regularization and polynomial features; Random Forest; Support Vector Machines (SVMs); Gradient Boosting; and a Neural Network.
 
-# 1. Exploratory Data Analysis 
-
-## 1.1 The Dataset
+# 1. Exploratory Data Analysis
 
 The training dataset has `891` rows and `12` columns. Of these `12` columns, one is the unique identifier of the passenger, `PassengerId`, while `Survived` is the target variable.
 
 The test dataset has `418` rows and `11` columns.
-### 1.1.1 Variables
+## 1.1 Variables
 
 The variables presented in the dataset, together with their data types are:
 - `PassengerId`: Unique identifier of each passenger, `int`;
@@ -29,7 +27,7 @@ The variables presented in the dataset, together with their data types are:
 
 This concludes the information about the columns of the dataset. In the next subsection, we explore general statistics about our variables.
 
-### 1.1.2 General Information 
+## 1.2. General Information 
 
 By inspecting the available features of possible interest to an ML model, we discard the `PassengerId`, the `Name` and the `Ticket` columns.  
 
@@ -71,10 +69,19 @@ As shown in the table, `children` have the highest survival rate, followed by `t
     <img src="/report/images/survival_by_age_frequency.png">
 </p>
 
-Having this in mind, we can also verify the distribution of survival by sex to verify if `women` have a higher survival rate than `men`.
+Having this in mind, we can also verify the distribution of survival by sex to verify if `women` have a higher survival rate than `men`. We show those in the table below:
 
+| Sex    | Survived | Relative Frequency of Survival | Not Survived | Relative Frequency of Not Survival |
+| ------- | -------- | ------------------------------ | ------------ | ---------------------------------- |
+| Female  | 233      | 0.742038                       | 81           | 0.257962                           |
+| Male    | 109      | 0.188908                       | 468          | 0.811092                           |
 
+In fact, `female` passengers show a much higher survival rate than `male` passengers (`74.2%` vs `18.9%`) which further validates our assumption that women and children were saved first.
 
-(insert conclusion of this section)
+<p align="center">
+    <img src="/report/images/survival_rate_by_sex_frequeny.png">
+</p>
 
-### 1.1.3 Correlation and Skewness
+## 1.3 Correlation and Skewness
+
+(next steps)
