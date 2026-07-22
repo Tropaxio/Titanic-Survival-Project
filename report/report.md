@@ -58,7 +58,7 @@ As seen from the plot below, `adults` are the majority of passengers, counting f
 
 We can also observe the distribution of survival rates across different age groups (although some `Age` data is missing as we've seen):
 
-| Age Group | Survived | Relative Frequency of Age Group | Not Survived | Relative Frequency of Not Survival  |
+| Age Group | Survived | Relative Frequency of Survival | Not Survived | Relative Frequency of Not Survival  |
 | ---------- | -------- | ------------------------------- | ------------ | ---------------------------------- |
 | Children   | 40       | 0.579710                        | 29           | 0.420290                           |
 | Teenager   | 21       | 0.477273                        | 23           | 0.522727                           |
